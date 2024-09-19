@@ -1,0 +1,80 @@
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+  
+  
+.logo-banner-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 30vw;
+    // height: 100px;
+
+    // margin-top: 0;
+    // transform: translateY(-7vh);
+}
+  
+.logo-banner {
+    display: inline-block;
+    animation: slide 150s infinite linear;
+
+    // height: 5vh;
+    // background-color: blue;
+    padding-bottom: 1vh;
+
+    img {
+        height: 3vh;
+        width: 4vh;
+        padding-left: 15px;
+
+        &:hover {
+            // transform: scale(1.05);
+        }
+    }
+}
+
+h1 {
+    padding-top: 1vh;
+
+}
+
+.hand-wave {
+    animation: wave 2s 1;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+// @keyframes wave {
+//     0% { transform: rotate(0deg); }
+//     10% { transform: rotate(14deg); }
+//     20% { transform: rotate(-8deg); }
+//     30% { transform: rotate(14deg); }
+//     40% { transform: rotate(-4deg); }
+//     50% { transform: rotate(10deg); }
+//     60% { transform: rotate(0deg); }
+//     100% { transform: rotate(0deg); }
+// }
+
+// .hand-wave {
+//     // font-size: 100px;
+//     animation: wave 2s infinite;
+//     transform-origin: 70% 70%;
+// }
+
+p {
+    padding-bottom: 15px;   
+}

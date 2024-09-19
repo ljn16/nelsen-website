@@ -1,10 +1,38 @@
-import Image from "next/image";
+// import Image from "next/image";
+
+import App from "next/app";
+import './styles/App.scss'
+import Nav from './libs/nav.jsx'
+import Salutation from './libs/salutation.jsx'
+import SideNav from './libs/sideNav.jsx'
+import Biography from './libs/bio.jsx'
+import Products from './libs/products.jsx'
+
 
 export default function Home() {
   return (
     <>
-    <p>hello world</p>
-      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <Nav/>
+    <div className='column-wrapper'>
+      <div className='LT-col'>
+        {/* <SideNav/> */}
+        {/* <div className='test'>&#9776;</div> */}
+      </div>
+      <div className='main-col'>
+        
+        {/* <Salutation/> */}
+        <h1 style={{ margin: 75 }}>
+          {/* <div className="hand-wave">👋 </div>  */}
+          {/* <br></br> */}
+          👋 I&apos;m <strong id='name'>Logan</strong>. 
+        </h1>
+        <Biography/>
+        <Products/>
+      </div>
+      <div className='RT-col'></div>
+    </div>
+
+      {/* <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
           <Image
             className="dark:invert"
@@ -98,7 +126,7 @@ export default function Home() {
             Go to nextjs.org →
           </a>
         </footer>
-      </div>
+      </div> */}
     </>
 
   );
