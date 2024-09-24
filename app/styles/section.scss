@@ -43,6 +43,21 @@
         border-radius: 5px;
         margin-top: 20px;
 
+        // &:hover {
+            
+        //         position: absolute;
+        //         top: 0;
+        //         left: 0;
+        //         width: 50vw; /* Full viewport width */
+        //         height: 50; /* Full viewport height */
+        //         object-fit: contain; /* Ensures the full image is shown */
+        //         z-index: 9999; /* Bring the image above other content */
+        //         transform: translate(-50%, -50%);
+        //         top: 50%;
+        //         left: 50%;
+              
+        // }
+
     }
 
     &:hover {

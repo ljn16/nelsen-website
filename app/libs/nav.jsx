@@ -10,7 +10,7 @@ function Nav() {
     <>
       <nav>
         <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-          <p style={{ backgroundColor: 'rgba(255, 255, 0, 0.5)', color: 'black', borderRadius: 5, padding: 0, margin: 10 }}>🚧 Site currently under construction. 🚧</p>
+          <p style={{ backgroundColor: 'rgba(255, 255, 0, 0.5)', color: 'black', borderRadius: 5, padding: 5, paddingLeft: 10, paddingRight: 10, margin: 10 }}>&zwnj;🚧 Site under construction 🚧&zwnj;</p>
         </div>
         <div className='nav-content'>
           {/* <a href='#home'>X</a>
@@ -21,10 +21,14 @@ function Nav() {
           </div>
           <div className='profile-link-icons'>
             <a href='https://github.com/ljn16' target='_blank'>
-                <Image src={githubLogo} alt='GitHub Logo' width={96} height={96} />
+                <div style={{ width: '4vh', height: '4vh', position: 'relative', marginLeft: '20px'}}>
+                  <Image src={githubLogo} alt='GitHub Logo' layout='fill' objectFit='contain' />
+                </div>
             </a>
             <a href='https://www.linkedin.com/in/logan-nelsen/' target='_blank'>
-                <Image src={linkedinLogo} alt='LinkedIn Logo' width={96} height={96} />
+                <div style={{ width: '4vh', height: '4vh', position: 'relative', marginLeft: '10px', marginRight: '20px' }}>
+                  <Image src={linkedinLogo} alt='LinkedIn Logo' layout='fill' objectFit='contain' />
+                </div>
             </a>
           </div>
         </div>
