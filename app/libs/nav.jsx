@@ -9,6 +9,9 @@ function Nav() {
   return (
     <>
       <nav>
+        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
+          <p style={{ backgroundColor: 'rgba(255, 255, 0, 0.5)', color: 'black', borderRadius: 5, padding: 0, margin: 10 }}>🚧 Site currently under construction. 🚧</p>
+        </div>
         <div className='nav-content'>
           {/* <a href='#home'>X</a>
           <a href='#about'>Y</a>

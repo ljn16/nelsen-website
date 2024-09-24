@@ -19,7 +19,7 @@ export default function Home() {
         {/* <SideNav/> */}
         <div className='alert'>
           {/* <Image src={alertImage} alt='alert icon' /> */}
-            <p style={{ backgroundColor: 'yellow', color: 'black', borderRadius: 5, padding: 0, margin: 10 }}>🚧 Site currently under construction. 🚧</p>
+            {/* <p style={{ backgroundColor: 'yellow', color: 'black', borderRadius: 5, padding: 0, margin: 10 }}>🚧 Site currently under construction. 🚧</p> */}
         </div>
       </div>
       <div className='main-col'>
