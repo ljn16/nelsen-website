@@ -1,8 +1,8 @@
 import '../styles/section.scss'
 import Image from 'next/image'
-import reactime from '../assets/products/reactime.gif'
-import cogntor from '../assets/products/Cogntor.png'
-import workbrew from '../assets/products/Workbrew.png'
+// import reactime from '../assets/products/reactime.gif'
+// import cogntor from '../assets/products/Cogntor.png'
+// import workbrew from '../assets/products/Workbrew.png'
 
 function Products() {
 
@@ -36,7 +36,7 @@ function Products() {
               <h4>Cogntor</h4>
               <span className='product-description'>Attention Metric Monitoring Application</span>
             </span>
-            <Image src={cogntor} alt='Cogntor product image' width={500} height={500} />
+            {/* <Image src={cogntor} alt='Cogntor product image' width={500} height={500} /> */}
           </span>
           
           
@@ -45,7 +45,7 @@ function Products() {
               <h4>Work Brew</h4>
               <span className='product-description'>Café Locator Application</span>
             </span>
-            <Image src={workbrew} alt='Work Brew product image' width={500} height={500} />
+            {/* <Image src={workbrew} alt='Work Brew product image' width={500} height={500} /> */}
           </span>
         </div>
       {/* </div> */}
