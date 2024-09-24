@@ -1,6 +1,6 @@
 import '../styles/nav.scss'
 // import SideNav from './sideNav';
-import Image from 'next/image';
+// import Image from 'next/image';
 // import githubLogo from '/app/assets/logos/github-logo.png';
 // import linkedInLogo from '/app/assets/logos/linkedIn-logo.png';
 

@@ -1,5 +1,5 @@
 import '../styles/section.scss'
-import Image from 'next/image'
+// import Image from 'next/image'
 // import reactime from '../assets/products/reactime.gif'
 // import cogntor from '../assets/products/Cogntor.png'
 // import workbrew from '../assets/products/Workbrew.png'

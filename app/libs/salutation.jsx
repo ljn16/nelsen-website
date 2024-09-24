@@ -1,6 +1,6 @@
 import '../styles/salutation.scss'
 
-import Image from 'next/image'
+// import Image from 'next/image'
 // import html from '../assets/logos/html5-logo-transparent.png'
 // import css from '../assets/logos/css3-logo-transparent.png'
 // import react from '../assets/logos/react-logo-transparent.png'
