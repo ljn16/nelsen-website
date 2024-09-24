@@ -14,7 +14,8 @@ const nextConfig = {
     //     // domains: ['example.com'],
     //   },
     //   // Other Next.js configurations can go here
-    
+
+
 };
 
 export default nextConfig;
