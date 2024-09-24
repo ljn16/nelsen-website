@@ -1,10 +1,10 @@
 // import Image from "next/image";
 
-import App from "next/app";
+// import App from "next/app";
 import './styles/App.scss'
 import Nav from './libs/nav.jsx'
-import Salutation from './libs/salutation.jsx'
-import SideNav from './libs/sideNav.jsx'
+// import Salutation from './libs/salutation.jsx'
+// import SideNav from './libs/sideNav.jsx'
 import Biography from './libs/bio.jsx'
 import Products from './libs/products.jsx'
 
