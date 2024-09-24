@@ -1,4 +1,5 @@
 // import Image from "next/image";
+// import alertImage from './assets/icons/alert-icon.png'
 
 // import App from "next/app";
 import './styles/App.scss'
@@ -16,7 +17,10 @@ export default function Home() {
     <div className='column-wrapper'>
       <div className='LT-col'>
         {/* <SideNav/> */}
-        {/* <div className='test'>&#9776;</div> */}
+        <div className='alert'>
+          {/* <Image src={alertImage} alt='alert icon' /> */}
+            <p style={{ backgroundColor: 'yellow', color: 'black', borderRadius: 5, padding: 0, margin: 10 }}>🚧 Site currently under construction. 🚧</p>
+        </div>
       </div>
       <div className='main-col'>
         

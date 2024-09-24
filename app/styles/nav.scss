@@ -39,10 +39,12 @@ nav {
     
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
     
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
+
+        width: 7vw;
     
     
         // justify-self: flex-end;
@@ -55,8 +57,8 @@ nav {
         height: 4vh;
         width: 4vh;
         // margin-left: 5px;
-        // margin-right: 5px;
-        margin-top: 20%;
+        // margin-right: 10px;
+        margin-top: 0.5vh;
         // margin: 0;
         // margin-bottom: .5vh;
         // margin-right: 10px;
