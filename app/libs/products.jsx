@@ -20,7 +20,7 @@ function Products() {
               <h4>Reactime</h4>
               <span className='product-description'>React Metrics Monitoring Application</span>
             </span>
-            <Image src={reactime} alt='Reactime product image' width={500} height={500} />
+            {/* <Image src={reactime} alt='Reactime product image' width={500} height={500} /> */}
           </span>
 
           {/* <span className='product'>
