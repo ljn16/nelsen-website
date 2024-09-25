@@ -1,8 +1,11 @@
 import '../styles/nav.scss'
 // import SideNav from './sideNav';
 import Image from 'next/image';
-import githubLogo from '/app/assets/logos/github-logo.png';
-import linkedinLogo from '/app/assets/logos/linkedin-logo.png';
+// import githubLogo from '/app/assets/logos/github-logo.png';
+
+import githubLogo2 from '/app/assets/logos/github-icon2.png';
+import linkedinLogo from '/app/assets/logos/linkedin-logo2-nbg.png';
+import instagramLogo from '/app/assets/logos/instagram-logo.png';
 
 
 function Nav() {
@@ -22,12 +25,18 @@ function Nav() {
           <div className='profile-link-icons'>
             <a href='https://github.com/ljn16' target='_blank'>
                 <div style={{ width: '4vh', height: '4vh', position: 'relative', marginLeft: '20px'}}>
-                  <Image src={githubLogo} alt='GitHub Logo' layout='fill' objectFit='contain' />
+                  <Image src={githubLogo2} alt='GitHub Logo' layout='fill' objectFit='contain' />
                 </div>
             </a>
             <a href='https://www.linkedin.com/in/logan-nelsen/' target='_blank'>
-                <div style={{ width: '4vh', height: '4vh', position: 'relative', marginLeft: '10px', marginRight: '20px' }}>
+                <div style={{ width: '4vh', height: '4vh', position: 'relative', marginLeft: '10px'}}>
                   <Image src={linkedinLogo} alt='LinkedIn Logo' layout='fill' objectFit='contain' />
+                </div>
+            </a>
+
+            <a href='https://www.instagram.com/logan_nelsen/' target='_blank'>
+                <div style={{ width: '4vh', height: '4vh', position: 'relative', marginLeft: '10px', marginRight: '20px' }}>
+                  <Image src={instagramLogo} alt='LinkedIn Logo' layout='fill' objectFit='contain' />
                 </div>
             </a>
           </div>
