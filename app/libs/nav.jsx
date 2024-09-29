@@ -1,25 +1,24 @@
 // import '../styles/nav.scss'
 // import SideNav from './sideNav';
-// import Image from 'next/image';
+import Image from 'next/image';
 // import githubLogo from '/app/assets/logos/github-logo.png';
 
-// import githubLogo2 from '/app/assets/logos/github-icon2.png';
-// import linkedinLogo from '/app/assets/logos/linkedin-logo2-nbg.png';
-// import instagramLogo from '/app/assets/logos/instagram-logo.png';
+import githubLogo2 from '/app/assets/logos/github-icon2.png';
+import linkedinLogo from '/app/assets/logos/linkedin-logo2-nbg.png';
+import instagramLogo from '/app/assets/logos/instagram-logo.png';
 
 
 function Nav() {
   return (
     <>
-      <div className='flex justify-center items-center fixed top-0 left-0 w-full z-50'> {/* //!wrapper */}
-        <div className="absolute backdrop-blur-lg w-full h-[5vh]"></div>
+      <div className='flex justify-center items-center fixed top-0 left-0 w-full z-40'> {/* //!wrapper */}
+        <div className="absolute backdrop-blur-lg w-full h-[5vh] rounded-lg"></div>
         <div className='  
         flex justify-evenly align-center
         bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500
-        opacity-30 backdrop-blur-lg
+        opacity-30 
         h-[5vh] w-full
         rounded-lg p-1 m-2
-
         '> {/* //!container */}
           <nav className='
           flex justify-center  md:justify-end
@@ -32,18 +31,19 @@ function Nav() {
             ' >
               <a href='https://github.com/ljn16' target='_blank' className='
                 h-2/3 aspect-square
-                bg-yellow-600 rounded-md'>
+                rounded-md'>
                 <div ></div>
+                <Image src={githubLogo2} alt='GitHub Logo' />
               </a>
               <a href='https://www.linkedin.com/in/logan-nelsen/' target='_blank' className='
                   h-2/3 aspect-square
-                bg-yellow-600 rounded-md'>
-                <div ></div>
+                rounded-md'>
+                <Image src={linkedinLogo} alt='LinkedIn Logo' />
               </a>
               <a href='https://www.instagram.com/logan_nelsen/' target='_blank' className='
                 h-2/3 aspect-square
-                bg-yellow-600 rounded-md'>
-                <div ></div>
+                rounded-md'>
+                <Image src={instagramLogo} alt='Instagram Logo' />
               </a>
               
             </div>

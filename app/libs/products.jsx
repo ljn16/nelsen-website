@@ -81,7 +81,7 @@ function Products() {
             >
               <span className='product-info'>
                 <h4>Super Reader</h4>
-                <span className='product-description'>Website Enhancer for ADHD/Dyslexia</span>
+                <span className='product-description'>Website Enhancer for ADHD and Dyslexia</span>
               </span>
               <Image src={superreader} alt='Super Reader product image' width={500} height={500} />
             </span>
