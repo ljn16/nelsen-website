@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        glass: '#ffffff1a',
+        glassOver: '#ffffff2a',
+        mainBG: '#242424',
       },
     },
   },
