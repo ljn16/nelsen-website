@@ -1,11 +1,11 @@
 // import '../styles/nav.scss'
 // import SideNav from './sideNav';
-import Image from 'next/image';
+// import Image from 'next/image';
 // import githubLogo from '/app/assets/logos/github-logo.png';
 
-import githubLogo2 from '/app/assets/logos/github-icon2.png';
-import linkedinLogo from '/app/assets/logos/linkedin-logo2-nbg.png';
-import instagramLogo from '/app/assets/logos/instagram-logo.png';
+// import githubLogo2 from '/app/assets/logos/github-icon2.png';
+// import linkedinLogo from '/app/assets/logos/linkedin-logo2-nbg.png';
+// import instagramLogo from '/app/assets/logos/instagram-logo.png';
 
 
 function Nav() {
