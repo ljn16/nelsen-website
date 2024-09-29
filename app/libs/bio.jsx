@@ -1,5 +1,5 @@
 import '../styles/section.scss'
-import Salutation from './salutation.jsx'
+// import Salutation from './salutation.jsx'
 
 
 
