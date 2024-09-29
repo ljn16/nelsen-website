@@ -12,9 +12,10 @@ function Nav() {
   return (
     <>
       <div className='flex justify-center items-center fixed top-0 left-0 w-full z-50'> {/* //!wrapper */}
+        <div className="absolute backdrop-blur-lg w-full h-[5vh]"></div>
         <div className='  
         flex justify-evenly align-center
-        bg-glass bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500
+        bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500
         opacity-30 backdrop-blur-lg
         h-[5vh] w-full
         rounded-lg p-1 m-2
