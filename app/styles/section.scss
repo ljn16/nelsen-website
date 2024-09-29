@@ -31,7 +31,11 @@
     border-radius: 5px;
     // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: rgb(48, 48, 48);
-    width: 30vw;
+    width: 60vw;
+
+    @media (min-width: 768px) {
+        width: 30vw;
+    }
 
     // &:hover {
     //     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
