@@ -22,12 +22,12 @@ function Nav() {
 
         '> {/* //!container */}
           <nav className='
-          flex justify-end  
+          flex justify-center  md:justify-end
           h-full w-full
           rounded-b-lg'>
             <div className='
-            flex justify-around items-center
-            bg-glassOver h-full w-full md:w-1/4
+            flex justify-around items-center 
+            bg-glassOver h-full w-1/2 md:w-1/4
             rounded-lg
             ' >
               <a href='https://github.com/ljn16' target='_blank' className='
