@@ -9,6 +9,7 @@ import Nav from './libs/nav.jsx'
 // import SideNav from './libs/sideNav.jsx'
 import Biography from './libs/bio.jsx'
 import Products from './libs/products.jsx'
+import Banner from './libs/banner.jsx'
 
 
 export default function Home() {
@@ -28,7 +29,8 @@ export default function Home() {
       flex flex-col items-center justify-center
       bg-mainBG rounded-sm border-x border-gray-700
       mt-[10vh]'>
-        <h1 className='text-[3rem] font-bold'> 👋 I&apos;m Logan.</h1>
+        <Banner/>
+        {/* <h1 className='text-[2rem] font-bold'> 👋 I&apos;m Logan.</h1> */}
 
         <Biography/>
         <Products/>
