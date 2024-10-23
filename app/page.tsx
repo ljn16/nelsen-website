@@ -1,50 +1,59 @@
-// import Image from "next/image";
-// import alertImage from './assets/icons/alert-icon.png'
+import Image from "next/image";
+import siteLogo from './assets/logos/Hub Logan.png'
+// import suedeBG from 'app/assets/suedeBG.jpg'
 
 // import App from "next/app";
 // import './styles/App.scss'
 import './globals.css'
-import Nav from './libs/nav.jsx'
+// import Nav from './libs/nav.jsx'
+import Nav2 from './libs/navCopy.jsx'
+import NavC2 from './libs/navCopy2.jsx'
 // import Salutation from './libs/salutation.jsx'
 // import SideNav from './libs/sideNav.jsx'
 import Biography from './libs/bio.jsx'
 import Products from './libs/products.jsx'
 import Banner from './libs/banner.jsx'
 
+import Technologies from './libs/technologies.jsx'
 
 export default function Home() {
   return (
     <>
-    <Nav/>
+    {/* <Nav/> */}
+    {/* <Nav2/> */}
+    <NavC2/>
+    <div className='
     
-    {/* //!LEFT ---------------------------------------------------*/} 
-    <div className='grid grid-cols-[10vw_80vw_10vw]  h-full w-full'>
-      <aside className='
+    '></div>
+
+
+
+    <div className='
       flex flex-col items-center justify-center
-      '>
-      
-      </aside>
-      {/* //!CENTER ---------------------------------------------------*/} 
-      <div className='
-      flex flex-col items-center justify-center
-      bg-mainBG rounded-sm border-x border-gray-700
-      mt-[10vh]'>
-        <Banner/>
+      bg-mainBG rounded-sm 
+      mt-[5vh]'>
+      <div className='relative md:right-44'>
+        <div className=''>
+          <Biography/>
+        </div>
+        
+        {/* <Technologies/> */}
+        {/* <Products */}
+        {/* Links */}
+      </div>
+      <Technologies/>
+      <Products/>
+
+
+        {/* //! */}
+        {/* <Banner/> */}
         {/* <h1 className='text-[2rem] font-bold'> 👋 I&apos;m Logan.</h1> */}
 
-        <Biography/>
-        <Products/>
+        
+        {/* <Products/> */}
 
       </div>
 
-      {/* //!RIGHT ---------------------------------------------------*/}  
-      <aside className='
-      flex flex-col items-center justify-center
-      '>
-        
-      </aside>
-
-    </div>
     {/* <aside></aside>
     <div></div>
     <aside></aside> */}

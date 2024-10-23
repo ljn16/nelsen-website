@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Logan's Hub",
+  title: "Hub Logan",
   description: "Logan Nelsen's personal website",
 };
 

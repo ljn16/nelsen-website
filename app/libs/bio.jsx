@@ -1,6 +1,9 @@
 import '../styles/section.scss'
 // import Salutation from './salutation.jsx'
 
+import Image from 'next/image'
+import loganPfp from '../assets/logan-pfp.png'
+
 
 
 function Biography() {
@@ -8,14 +11,22 @@ function Biography() {
 
   return (
     <>
-      <div className='section'>
-        <h2>About Me</h2>
-        <p>I am a software engineer with a passion for building innovative, intuitive full-stack applications to solve real-world problems with user psychology/cognition in mind. A broad range of experience using React, SCSS, Node.js, SQL/NoSQL, and more.</p>
-
-        {/* <Salutation/> */}
+      <div className='
+      relative flex  m-5'>
+        <Image className='
+        w-full h-auto' src={loganPfp} alt="Logan's Profile Picture"/>
+        <div className='
+        absolute 
+        top-80 left-0 w-full md:left-3/4 md:top-10
+        bg-white bg-opacity-50 md:bg-opacity-15 rounded-lg p-4'>
+          <h2 className='text-green-500'>Hi, I'm Logan</h2>
+          <p>I am a software engineer with a passion for building innovative, intuitive full-stack applications to solve real-world problems with user psychology/cognition in mind. A broad range of experience using React, SCSS, Node.js, SQL/NoSQL, and more.</p>
+        </div>
       </div>
     </>
   )
 }
 
 export default Biography;
+
+// absolute top-0 right-0 w-1/3 h-full bg-white bg-opacity-75 p-4

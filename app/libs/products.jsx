@@ -18,76 +18,14 @@ function Products() {
 
   return (
     <>
-        <div className='section'>
-          <h2>Products</h2>
-          
-          <div className='section-in'>
-          </div>
-
-          <a href='https://www.reacti.me/' target='blank'>
-            <span 
-              className='product' 
-              // onClick={() => handleClick('reactime')} 
-              // style={{ border: selectedProduct === 'reactime' ? '1px solid red' : 'none' }}
-            >
-              <span className='product-info'>
-                <h4>Reactime</h4>
-                <span className='product-description'>React Metrics Monitoring</span>
-              </span>
-              <Image src={reactime} alt='Reactime product image' width={500} height={500} />
-            </span>
-          </a>
+      <div className='
+      border border-gray-700
+      mt-10 md:mt-20'>
+        <h2 className='text-green-500'>Products</h2>
           
 
-          {/* <span className='product'>
-            <span className='product-info'>
-              <h4>Reactime</h4>
-              <span className='product-description'>React Metrics Monitoring Application</span>
-            </span>
-            <Image src={reactime} alt='Reactime product image' width={500} height={500} />
-          </span> */}
 
-          <span 
-            className='product' 
-            // onClick={() => handleClick('cogntor')} 
-            // style={{ border: selectedProduct === 'cogntor' ? '1px solid red' : 'none' }}
-          >
-            <span className='product-info'>
-              <h4>Cogntor</h4>
-              <span className='product-description'>Attention Metric Monitoring</span>
-            </span>
-            <Image src={cogntor} alt='Cogntor product image' width={500} height={500} />
-          </span>
-          
-          <a href='https://github.com/Work-Brew-Inc/Work-Brew' target='blank'>
-            <span 
-              className='product' 
-              // onClick={() => handleClick('workbrew')} 
-              // style={{ border: selectedProduct === 'workbrew' ? '1px solid red' : 'none' }}
-            >
-              <span className='product-info'>
-                <h4>Work Brew</h4>
-                <span className='product-description'>Café Locator</span>
-              </span>
-              <Image src={workbrew} alt='Work Brew product image' width={500} height={500} />
-            </span>
-          </a>
-
-          {/* <a href='https://github.com/Work-Brew-Inc/Work-Brew' target='blank'> */}
-            <span 
-              className='product' 
-              // onClick={() => handleClick('workbrew')} 
-              // style={{ border: selectedProduct === 'workbrew' ? '1px solid red' : 'none' }}
-            >
-              <span className='product-info'>
-                <h4>Super Reader</h4>
-                <span className='product-description'>Website Enhancer for ADHD and Dyslexia</span>
-              </span>
-              <Image src={superreader} alt='Super Reader product image' width={500} height={500} />
-            </span>
-          {/* </a> */}
-
-        </div>
+      </div>
     </>
     );
   
