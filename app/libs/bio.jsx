@@ -1,5 +1,4 @@
 import '../styles/section.scss'
-// import Salutation from './salutation.jsx'
 
 import Image from 'next/image'
 import loganPfp from '../assets/logan-pfp.png'
