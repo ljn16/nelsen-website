@@ -29,45 +29,57 @@ function Technologies() {
   return (
     <>
       <div className='
-      border border-gray-700
-      mt-52 md:mt-20'>
+       md:rounded-lg
+      mt-52 md:mt-20 md:min-w-[300px]'>
         <h2 className='text-green-500'>Favorite Technologies</h2>
-        <div className="grid grid-cols-3 md:grid-cols-5 gap-4 p-4">
+        <div className="grid grid-cols-3 md:grid-cols-4 gap-4 p-4">
           <div className="flex flex-col justify-center items-center hover:scale-125 transition-transform duration-300">
             {/* <h6 className='text-center'>React</h6> */}
-            <Image src={typescript} alt="Technology 1" width={75} height={75} />
+            <Image src={typescript} alt="Typescript icon" width={75} height={75} />
           </div>
           <div className="flex flex-col justify-center items-center hover:scale-125 transition-transform duration-300">
             {/* <h6 className='text-center'>Python</h6> */}
-            <Image src={python} alt="Technology 1" width={75} height={75} />
+            <Image src={python} alt="Python icon" width={75} height={75} />
           </div>
           <div className="flex flex-col justify-center items-center hover:scale-125 transition-transform duration-300">
             {/* <h6 className='text-center'>Node</h6> */}
-            <Image src={node} alt="Technology 1" width={75} height={75} />
+            <Image src={node} alt="Node icon" width={75} height={75} />
           </div>
           <div className="flex flex-col justify-center items-center hover:scale-125 transition-transform duration-300">
             {/* <h6 className='text-center'>Express</h6> */}
-            <Image src={express} alt="Technology 1" width={75} height={75} />
+            <Image src={express} alt="Express icon" width={75} height={75} />
           </div>
           <div className="flex flex-col justify-center items-center hover:scale-125 transition-transform duration-300">
             {/* <h6 className='text-center'>Next.js</h6> */}
-          <Image src={next} alt="Technology 1" width={75} height={75} />
+            <Image src={next} alt="Next icon" width={75} height={75} />
           </div>
           <div className="flex flex-col justify-center items-center hover:scale-125 transition-transform duration-300">
             {/* <h6 className='text-center'>Svelte</h6> */}
-          <Image src={svelte} alt="Technology 1" width={75} height={75} />
+            <Image src={react} alt="React icon" width={75} height={75} />
           </div>
           <div className="flex flex-col justify-center items-center hover:scale-125 transition-transform duration-300">
             {/* <h6 className='text-center'>Tailwind</h6> */}
-          <Image src={tailwind} alt="Technology 1" width={75} height={75} />
+            <Image src={redux} alt="Redux icon" width={75} height={75} />
           </div>
           <div className="flex flex-col justify-center items-center hover:scale-125 transition-transform duration-300">
             {/* <h6 className='text-center'>Sass</h6> */}
-          <Image src={sass} alt="Technology 1" width={75} height={75} />
+            <Image src={svelte} alt="Svelte icon" width={75} height={75} />
           </div>
           <div className="hidden md:flex flex-col justify-center items-center hover:scale-125 transition-transform duration-300">
             {/* <h6 className='text-center'>Next.js</h6> */}
-          <Image src={next} alt="Technology 1" width={75} height={75} />
+            <Image src={sass} alt="Sass icon" width={75} height={75} />
+          </div>
+          <div className="hidden md:flex flex-col justify-center items-center hover:scale-125 transition-transform duration-300">
+            {/* <h6 className='text-center'>Next.js</h6> */}
+            <Image src={tailwind} alt="Tailwind icon" width={75} height={75} />
+          </div>
+          <div className="flex flex-col justify-center items-center hover:scale-125 transition-transform duration-300">
+            {/* <h6 className='text-center'>Next.js</h6> */}
+            <Image src={git} alt="Git icon" width={75} height={75} />
+          </div>
+          <div className="hidden md:flex flex-col justify-center items-center hover:scale-125 transition-transform duration-300">
+            {/* <h6 className='text-center'>Next.js</h6> */}
+            <Image src={aws} alt="AWS icon" width={75} height={75} />
           </div>
         </div>
       </div>

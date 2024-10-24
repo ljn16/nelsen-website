@@ -31,17 +31,13 @@ export default function Home() {
     <div className='
       flex flex-col items-center justify-center
       bg-mainBG rounded-sm 
-      mt-[5vh]'>
-      <div className='relative md:right-44'>
-        <div className=''>
+      mt-[5vh] md:mt-1'>
+      <div className='flex flex-col md:flex-row md:space-x-56'>
+        <div className='flex md:right-44 md:mr-40'>
           <Biography/>
         </div>
-        
-        {/* <Technologies/> */}
-        {/* <Products */}
-        {/* Links */}
-      </div>
       <Technologies/>
+      </div>
       <Products/>
 
 

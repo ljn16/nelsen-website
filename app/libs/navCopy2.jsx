@@ -22,8 +22,9 @@ function NavC2() {
     return (
       <>
         {/* //! nav container */}
+        <div className=''></div>
         <div className='
-      flex md:h-[115px] justify-end'>
+        flex md:h-[115px] justify-end'>
           {/* //! site logo container */}
           <div className= 'fixed top-0 left-0 h-0 w-0 md:left-[35px] md:h-[85px] md:w-[90px]' style={{ backgroundImage: `url(${suedeBG.src})`, borderBottomLeftRadius: '10px', borderBottomRightRadius: '10px' }}></div>
           <div className='
@@ -41,13 +42,10 @@ function NavC2() {
           <div className='fixed flex
           h-10 w-30 md:h-20 md:w-auto px-1 md:px-2 mr-1 md:mr-9 items-center space-x-2
           md:bg-green-500 md:rounded-b-lg justify-around z-20' >
-            <Image className='w-6 h-6 md:w-12 md:h-12' src={githubBlack} alt='GitHub Logo' />
-            <Image className='w-6 h-6 md:w-12
-             md:h-12
-            ' src={linkedinBlack} alt='LinkedIn Logo' />
-            <Image className='w-6 h-6 md:w-12
-             md:h-12
-            ' src={instagramBlack} alt='Instagram Logo' />
+            <a target='blank' href='https://github.com/ljn16'><Image className='w-6 h-6 md:w-12 md:h-12' src={githubBlack} alt='GitHub Logo' /></a>
+            <a target='blank' href='https://www.linkedin.com/in/logan-nelsen/'><Image className='w-6 h-6 md:w-12 md:h-12' src={linkedinBlack} alt='LinkedIn Logo' /></a>
+            <a target='blank' href='https://www.instagram.com/logan_nelsen/'><Image className='w-6 h-6 md:w-12 md:h-12' src={instagramBlack} alt='Instagram Logo' /></a>
+
           </div>
         </div>
       </>
