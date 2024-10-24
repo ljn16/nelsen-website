@@ -13,7 +13,7 @@ function Biography() {
       <div className='
       relative flex'>
         <Image className='
-        w-full h-auto' src={loganPfp} alt="Logan's Profile Picture"/>
+        w-full h-auto' src={loganPfp} alt="Logan Profile Picture"/>
         <div className='
         absolute 
         top-80 left-0 w-full md:left-3/4 md:top-10

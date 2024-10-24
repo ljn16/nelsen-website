@@ -4,9 +4,9 @@ import Image from 'next/image';
 import siteLogo from '/app/assets/logos/Hub Logan.png'
 import suedeBG from '/app/assets/suedeBG.jpg'
 
-import githubWhite from '/app/assets/nav icons/github-white.png'
-import linkedinWhite from '/app/assets/nav icons/linkedin-white.png'
-import instagramWhite from '/app/assets/nav icons/instagram-white.png'
+// import githubWhite from '/app/assets/nav icons/github-white.png'
+// import linkedinWhite from '/app/assets/nav icons/linkedin-white.png'
+// import instagramWhite from '/app/assets/nav icons/instagram-white.png'
 
 import githubBlack from '/app/assets/nav icons/github-black.png'
 import linkedinBlack from '/app/assets/nav icons/linkedin-black.png'

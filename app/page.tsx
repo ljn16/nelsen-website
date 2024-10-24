@@ -1,5 +1,5 @@
-import Image from "next/image";
-import siteLogo from './assets/logos/Hub Logan.png'
+// import Image from "next/image";
+// import siteLogo from './assets/logos/Hub Logan.png'
 // import suedeBG from 'app/assets/suedeBG.jpg'
 
 // import App from "next/app";
